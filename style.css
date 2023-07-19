@@ -1,0 +1,42 @@
+nav{
+    background-color:#F9F7F0; 
+    height: auto;
+    position: sticky;
+    filter: drop-shadow(4px,4px,4px,black);
+    font-size: 18px;
+    font-family: inter, sans-serif ;
+    color:black  
+}
+
+li{
+    display: inline-block;
+}
+
+.hero{
+    background-color: #C598BB;
+    height:421px;
+    width:100%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+#content-wrap {
+    padding-bottom: 414px;    /* Footer height */
+  }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height:414px;
+    width: 100%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
