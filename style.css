@@ -1,15 +1,17 @@
-nav{
-    background-color:#F9F7F0; 
+.navBar {
+    display:inline-block
+    background-color: #F9F7F0;
     height: auto;
-    position: sticky;
+    width: 100%;
     filter: drop-shadow(4px,4px,4px,black);
     font-size: 18px;
-    font-family: inter, sans-serif ;
-    color:black  
+    font-family: inter, sans-serif;
 }
 
 li{
+    list-style: none;
     display: inline-block;
+    vertical-align: top;
 }
 
 .hero{
@@ -17,19 +19,45 @@ li{
     height:421px;
     width:100%;
 }
+.profile{
+    float: left;
+}
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-#content-wrap {
-    padding-bottom: 414px;    /* Footer height */
-  }
+.aboutInfo{
+    float: right;
+}
 
-footer {
-    position: absolute;
-    bottom: 0;
-    height:414px;
+h1{
+    font-size: 64px;
+    font-family: handlee, ;
+}
+
+h2{
+    font-size: 64px;
+    font-family: nunito, sans-serif ;
+}
+
+.aqua{
+    border: none;
+    background-color: #9BCED1;
+    padding: 9px 35px;
+    text-align: center;
+    font-size: 24px;
+    font-family: nunito, sans-serif;
+    border-radius: 15px;
+  }
+.turq{
+    border: none;
+    background-color: #279198;
+    padding: 9px 35px;
+    text-align: center;
+    font-size: 24px;
+    font-family: nunito, sans-serif;
+    border-radius: 15px;
+
+    
+}
+.footer{
     width: 100%;
 }
 
