@@ -1,3 +1,8 @@
+body{
+    background-color: #F9F7F0 ;
+}
+
+
 .navBar {
     display:flex;
     background-color: #F9F7F0;
@@ -93,6 +98,15 @@ h2{
     font-family: nunito, sans-serif;
     border-radius: 15px;
     margin-right: 20px;
+    transition: background-color 5sec;
+  }
+ 
+.aqua:hover{
+    background-color: #DEE088;
+  }
+
+  .projectBox .aqua{
+    margin-top: 20px;
   }
 .turq{
     border: none;
@@ -102,7 +116,11 @@ h2{
     font-size: 24px;
     font-family: nunito, sans-serif;
     border-radius: 15px;
-    
+    transition: background-color 5sec;
+}
+
+.turq:hover{
+    background-color: #DEE088;
 }
 
 .projects{
@@ -135,6 +153,10 @@ h2{
     padding: 20px;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.3));
 }
+.projectImage img{
+        object-fit: fill;
+        object-position: center top;
+     }
 
 .aboutMe{
     display:flex;
@@ -159,8 +181,15 @@ h2{
     margin-right: 20px; 
     text-align: left;
 }
-.footer{
-    width: 100%;
+
+.contact{
+    background-color: #DEE088;
+}
+
+footer{
+    background-image: url(./media/Footer.png);
+    background-size: cover;
+    height: 417px;
 }
 
 *,
