@@ -35,21 +35,22 @@ font-weight: 600;
 .logo{
     display:flex;
 }
+
 .logoSpace, .name{
     margin-right: 20px;
-
 }
 
 .name{
     font-size: 18px;
     margin-left: 15px;
 }
+
 .title{
     font-size: 18px;
 }
+
 nav ul{
     display: flex;
-
 }
 
 nav li{
@@ -93,6 +94,12 @@ h2{
     font-weight: 300;
 }
 
+h3{
+    font-size: 24px;
+    font-family: nunito, sans-serif ; 
+    font-weight: 300; 
+}
+
 .miniBio{
     font-size: 24px;
     font-family: nunito, sans-serif ; 
@@ -103,6 +110,7 @@ h2{
 .heroButton{
     margin-top: 40px;
 }
+
 .aqua{
     border: none;
     background-color: #9BCED1;
@@ -122,7 +130,8 @@ h2{
   .projectBox .aqua{
     margin-top: 20px;
   }
-.turq{
+
+  .turq{
     border: none;
     background-color: #279198;
     padding: 9px 35px;
@@ -132,10 +141,10 @@ h2{
     border-radius: 15px;
     transition: background-color 5sec;
 }
-
 .turq:hover{
     background-color: #DEE088;
-}
+  }
+
 
 .projects{
     background-image: url("./media/recent\ project\ background.png");
@@ -158,21 +167,31 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
+
 .projectImage{
     background-color: #F9F7F0;
     border: solid 8px;
     border-color: #9BCED1;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.3));
+
 }
+
+
 .projectImage img{
         object-fit: fill;
         object-position: center top;
      }
 
 .viewAll{
+margin-top: 30px;
+font-size: 32px;
+font-family: nunito, sans-serif ;
+color: black;
+}
 
+.viewAll:hover{
+    color: #279198 !important;
 }
 
 .aboutMe{
@@ -203,11 +222,10 @@ h2{
     background-color: #DEE088;
     display:flex;
     gap:40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 40px;
 }
 .contactScribble{
-    width: 30%;
+    width: 40%;
 }
 
 .contactImage{
@@ -220,15 +238,24 @@ h2{
 }
 
 .contactForm{
-    width: 70%;
+    width: 60%;
 }
 .formTop{
     width:50%;
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: nunito, sans-serif ;
+    padding:15px;
+    border-radius: 15px;
 }
 
 .message{
-    margin-top: 15px;
-    width: 100%;
+    margin-top: 30px;
+    width: 100%; 
+    font-size: 24px;
+    font-family: nunito, sans-serif ;
+    border-radius: 15px;
+    padding: 15px;
 }
 .coral{
     border: none;
@@ -238,7 +265,7 @@ h2{
     font-size: 24px;
     font-family: nunito, sans-serif;
     border-radius: 15px;
-    margin-top: 45px;
+    margin-top: 30px;
     transition: background-color 5sec;
 }
 
@@ -256,6 +283,73 @@ footer{
     background-image: url(./media/Footer.png);
     background-size: cover;
     height: 417px;
+}
+
+.caseStudy{
+    background-color:#F9F7F0;
+    display:flex;
+    gap:40px;
+    padding: 40px 40px 0px 40px; 
+}
+.andwegoBig{
+    width: 50%;
+}
+
+.projectInfo{
+    display:block;
+    gap: 15px;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.viewButton{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.projectDescription{
+    font: size 20px; ;
+    font-family: nunito,sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.caseStudyCoral{
+    background-color:#FDC3C0;
+    display:flex;
+    gap:40px;
+    padding: 40px; 
+}
+.borderImageAqua{
+    width: 100%;
+    height: auto;
+    background-color: #F9F7F0;
+    border:solid 8px;
+    border-color: #9BCED1;
+    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.3));
+
+}
+.patternBorder{
+    margin-top: 30px;
+}
+
+.caseStudyAqua{
+    background-color:#9BCED1;
+    display:flex;
+    gap:40px;
+    padding: 40px; 
+}
+
+.borderImageLime{
+    width: 100%;
+    height: auto;
+    background-color: #F9F7F0;
+    border:solid 8px;
+    border-color: #DEE088;
+    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.3));
 }
 
 *,
