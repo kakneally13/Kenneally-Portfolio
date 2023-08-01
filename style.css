@@ -94,6 +94,7 @@ h2{
     font-weight: 300;
 }
 
+
 h3{
     font-size: 24px;
     font-family: nunito, sans-serif ; 
@@ -141,8 +142,15 @@ h3{
     border-radius: 15px;
     transition: background-color 5sec;
 }
-.turq:hover{
+.turq a{
+    text-decoration: none;
+    color: black;
+}
+
+.turq a:hover{
     background-color: #DEE088;
+    text-decoration: none;
+    color: black;
   }
 
 
