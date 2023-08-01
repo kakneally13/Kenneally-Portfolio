@@ -79,7 +79,7 @@ nav li{
 .squiggle{
     position: absolute;
     bottom:-300px;
-    right:100px;
+    right:200px;
 }
 
 h1{
@@ -121,7 +121,6 @@ h3{
     font-family: nunito, sans-serif;
     border-radius: 15px;
     margin-right: 20px;
-    transition: background-color 5sec;
   }
  
 .aqua:hover{
@@ -140,14 +139,13 @@ h3{
     font-size: 24px;
     font-family: nunito, sans-serif;
     border-radius: 15px;
-    transition: background-color 5sec;
 }
 .turq a{
     text-decoration: none;
     color: black;
 }
 
-.turq a:hover{
+.turq:hover{
     background-color: #DEE088;
     text-decoration: none;
     color: black;
@@ -358,6 +356,77 @@ footer{
     border:solid 8px;
     border-color: #DEE088;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.3));
+}
+
+.skillsTop{
+    display:flex;
+    width: 100%;
+}
+.profileSkills{
+    background-color: #DEE088;
+    width:25%;
+    height: auto;
+    margin-left: 40px;
+    padding: 25px;
+    border-radius: 0px 0px 150px 150px;
+}
+
+.pinkProfilePic{
+    width:100%;
+    padding: 10px;
+}
+.abilities{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.softwareSkills{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sidebarText{
+    font-size: 20px;
+    font-family: nunito,sans-serif;
+}
+
+.skillsMain{
+    margin: 40px;
+}
+
+.skillMain h1{
+    font-size: 40px;
+    font-family: nunito, sans-serif;
+}
+
+.skillsMain p{
+    font-size: 16px;
+    font-family: nunito, sans-serif;
+}
+
+.skillImage{
+    width:100%;
+    max-height: 151px;
+    margin-bottom: 15px;
+}
+
+.softwareImage{
+    width:100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.skillPlusText{
+    margin: 20px;
+    text-align: center;
+}
+
+.softwareSkillPlusText{
+    margin: 20px 100px;
+    text-align: center;
+}
+
+.emailIcon{
+    display: flex;
 }
 
 *,
