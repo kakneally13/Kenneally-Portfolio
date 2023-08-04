@@ -2,16 +2,20 @@ body{
     background-color: #F9F7F0 ;
 }
 
-
-
 .hamburger{
   display: none;
   cursor: pointer;
+  font-size: 24px;
 }
 .x{
     display:none;
 }
-@media(max-width:1020px){
+
+.aboutInfoMobile{
+    display:none;
+}
+
+@media(max-width:1130px){
     .hamburger{
         display:block;
     }
@@ -34,7 +38,29 @@ body{
     .nav-item{
         margin: 16px 0;
       }
+    .squiggle{
+        display:none
+    }
+
+    .hero{
+       flex-direction: column;
+       padding-left: 0px;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .aboutInfo{
+        display:none;
+    }
+    .aboutInfoMobile{
+        display:block;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
+
 
 .navBar {
     display:flex;
@@ -111,7 +137,7 @@ nav li{
 
 .squiggle{
     position: absolute;
-    bottom:-300px;
+    bottom:-250px;
     right:200px;
 }
 
