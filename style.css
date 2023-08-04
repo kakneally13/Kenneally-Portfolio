@@ -3,6 +3,39 @@ body{
 }
 
 
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+.x{
+    display:none;
+}
+@media(max-width:1020px){
+    .hamburger{
+        display:block;
+    }
+
+    .navMenu{
+        position:fixed;
+        left:-100%;
+        top:70px;
+        gap:0;
+        flex-direction:column;
+        background-color:#F9F7F0;
+        width:100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .navMenu .active{
+        left:0;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+      }
+}
+
 .navBar {
     display:flex;
     background-color: #F9F7F0;
@@ -10,7 +43,7 @@ body{
     width: 100%;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.3));
     font-size: 18px;
-    font-family: inter, sans-serif;
+    font-family: 'Nunito', sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px 30px 20px;
@@ -45,7 +78,7 @@ font-weight: 600;
     margin-left: 15px;
 }
 
-.title{
+.titleMain{
     font-size: 18px;
 }
 
@@ -82,28 +115,28 @@ nav li{
     right:200px;
 }
 
-h1{
+.greeting{
     font-size: 64px;
     font-family: 'Handlee', cursive;
     font-weight: 400;
 }
 
-h2{
+.jobTitle{
     font-size: 40px;
-    font-family: nunito, sans-serif ;
+    font-family: 'Nunito', sans-serif ;
     font-weight: 300;
 }
 
 
-h3{
+.caseStudyHead{
     font-size: 24px;
-    font-family: nunito, sans-serif ; 
+    font-family: 'Nunito', sans-serif ; 
     font-weight: 300; 
 }
 
 .miniBio{
     font-size: 24px;
-    font-family: nunito, sans-serif ; 
+    font-family: 'Nunito', sans-serif ; 
     font-weight: 300;
     margin-top: 10px;
 }
@@ -162,7 +195,11 @@ h3{
 }
 .recentProjects{
     margin-top: 120px;
+    font-size: 64px;
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
 }
+
 .projectDiv{
     display: flex;
     gap:20px;
@@ -192,7 +229,7 @@ h3{
 .viewAll{
 margin-top: 30px;
 font-size: 32px;
-font-family: nunito, sans-serif ;
+font-family: 'Nunito', sans-serif ;
 color: black;
 }
 
@@ -217,7 +254,7 @@ color: black;
 }
 .about{
     font-size: 20px;
-    font-family: nunito, sans-serif;
+    font-family: 'Nunito', sans-serif;
     padding: 10px;
     margin-left: 56px;  
     margin-right: 20px; 
@@ -250,7 +287,7 @@ color: black;
     width:50%;
     margin-top: 40px;
     font-size: 24px;
-    font-family: nunito, sans-serif ;
+    font-family: 'Nunito', sans-serif ;
     padding:15px;
     border-radius: 15px;
 }
@@ -259,7 +296,7 @@ color: black;
     margin-top: 30px;
     width: 100%; 
     font-size: 24px;
-    font-family: nunito, sans-serif ;
+    font-family: 'Nunito', sans-serif ;
     border-radius: 15px;
     padding: 15px;
 }
@@ -269,7 +306,7 @@ color: black;
     padding: 9px 35px;
     text-align: center;
     font-size: 24px;
-    font-family: nunito, sans-serif;
+    font-family: 'Nunito', sans-serif;
     border-radius: 15px;
     margin-top: 30px;
     transition: background-color 5sec;
@@ -317,7 +354,7 @@ footer{
 
 .projectDescription{
     font: size 20px; ;
-    font-family: nunito,sans-serif;
+    font-family: 'Nunito',sans-serif;
     font-weight: 300;
     margin-top: 10px;
     margin-right: 50px;
@@ -371,9 +408,41 @@ footer{
     border-radius: 0px 0px 150px 150px;
 }
 
+.handwriting{
+    font-size: 40px;
+    font-family: 'Handlee',sans-serif;
+    text-align: center;
+}
+
+.title{
+    font-size: 24px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.picNameTitle{
+  justify-content: center;
+
+}
+
+.aboutSide{
+    margin-top: 25px;
+}
+.contactSide{
+    margin-top: 25px
+}
+.educationSide{
+    margin-top: 25px;
+}
+
+.educationSide .sidebarText{
+    text-align: left;
+}
+
 .pinkProfilePic{
     width:100%;
-    padding: 10px;
 }
 .abilities{
     display:grid;
@@ -385,23 +454,24 @@ footer{
 }
 
 .sidebarText{
-    font-size: 20px;
-    font-family: nunito,sans-serif;
+    font-size: 16px;
+    font-family: 'Nunito',sans-serif;
 }
 
 .skillsMain{
-    margin: 40px;
+    margin: 25px 40px;
 }
 
-.skillMain h1{
+.skillHeader{
     font-size: 40px;
-    font-family: nunito, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .skillsMain p{
     font-size: 16px;
-    font-family: nunito, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
+
 
 .skillImage{
     width:100%;
@@ -425,9 +495,19 @@ footer{
     text-align: center;
 }
 
-.emailIcon{
-    display: flex;
+.icon{
+    margin-right: 10px;
 }
+.iconPlusText{
+    display: flex;
+    margin-top:15px;
+}
+
+.iconPlusText p{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
 
 *,
 *::before,

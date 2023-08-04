@@ -9,31 +9,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Moo+Lah+Lah&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/75c14c928d.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </head>
 <body>
-    <header class="navBar">
+    <header>
+    <nav class="navBar">
         <div class="logo">
             <img src="./media/Logo.png" alt="Logo with K Initals" width="89px" height="auto">
             <p class="name"><strong>KELLY KENNEALLY</strong></p>
-            <p class="title"> Design Portfolio</p>
+            <p class="titleMain"> Design Portfolio</p>
         </div>
-    <nav>
-         <ul>
-            <li><a href="./projects.html">UX Design</a></li>
-            <li><a href="#">Fashion Design</a></li>
-            <li><a href="#">Contact</a></li>
+         <ul class="navMenu">
+            <li class="nav-item"><a href="./projects.html" class="navLink">UX Design</a></li>
+            <li class="nav-item"><a href="#"class="navLink">Fashion Design</a></li>
+            <li class="nav-item"><a href="#"class="navLink">Contact</a></li>
         </ul>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </div>
+        <div class="x">
+            <i class="fa-solid fa-x" style="color: #000000;"></i>
+        </div>
     </nav>
-   
+
  </header>
- 
+
+
+
+
  <section class="hero">
     <div class="profile">
         <img class="profilePic" src="./media/profile with doodles.png" alt="Photo of Kelly smiling and holding her hands together"></img>
     </div>
     <div class="aboutInfo">
-        <h1>Hi there, I'm Kelly!</h1>
-        <h2>UX/UI Designer </h2>
+        <h1 class="greeting">Hi there, I'm Kelly!</h1>
+        <h2 class="jobTitle">UX/UI Designer </h2>
         <p class="miniBio"> I am a passionate designer who loves all the little things we can create that make life so fun!</p>
         <div class="heroButton">
             <button class="aqua">ABOUT ME</button> 
@@ -91,7 +103,7 @@
         <img src="./media/contact-methods-01-1-edited.png" class="contactImage" alt="doodles of phone and email">
     </div>
     <div class="contactForm">
-        <h1>Contact Me!</h1>
+        <h1 class="greeting">Contact Me!</h1>
         <form>
             <div class="nameMail">
     <input class="formTop" type="text" id="name" name="name" placeholder="Your name...">
