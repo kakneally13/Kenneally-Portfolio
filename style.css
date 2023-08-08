@@ -7,60 +7,10 @@ body{
   cursor: pointer;
   font-size: 24px;
 }
-.x{
-    display:none;
-}
 
 .aboutInfoMobile{
     display:none;
 }
-
-@media(max-width:1130px){
-    .hamburger{
-        display:block;
-    }
-
-    .navMenu{
-        position:fixed;
-        left:-100%;
-        top:70px;
-        gap:0;
-        flex-direction:column;
-        background-color:#F9F7F0;
-        width:100%;
-        text-align: center;
-        transition: 0.3s;
-    }
-    .navMenu .active{
-        left:0;
-    }
-
-    .nav-item{
-        margin: 16px 0;
-      }
-    .squiggle{
-        display:none
-    }
-
-    .hero{
-       flex-direction: column;
-       padding-left: 0px;
-       justify-content: center;
-       align-items: center;
-    }
-
-    .aboutInfo{
-        display:none;
-    }
-    .aboutInfoMobile{
-        display:block;
-        margin-top: 100px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-}
-
 
 .navBar {
     display:flex;
@@ -126,7 +76,7 @@ nav li{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    position: relative;
+    /* position: relative; */
 }
 
 .profilePic{
@@ -137,8 +87,8 @@ nav li{
 
 .squiggle{
     position: absolute;
-    bottom:-250px;
-    right:200px;
+    bottom:-125px;
+    right:250px;
 }
 
 .greeting{
@@ -181,6 +131,11 @@ nav li{
     border-radius: 15px;
     margin-right: 20px;
   }
+
+  .aqua a{
+    text-decoration: none;
+    color: black;
+}
  
 .aqua:hover{
     background-color: #DEE088;
@@ -527,11 +482,140 @@ footer{
 .iconPlusText{
     display: flex;
     margin-top:15px;
+    padding: 5px;
 }
 
 .iconPlusText p{
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
+    margin-left: 10px;
+}
+
+
+.caseStudyCover{
+    display:flex;
+    width:100%;
+  }
+  
+  .coverLeft{
+      background-color: #EFE8E0;
+      width:35%;
+      padding:40px;
+  
+  }
+  /* casestudys css */
+
+  .coverRight{
+      background-color: #347E43;
+      width:65%;
+      padding:50px;
+      
+  }
+  
+  .handBlack{
+      font-size: 32px;
+      font-family: 'Caveat',cursive;
+      color:black;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom:20px ;
+  }
+  
+  .subheadings{
+      font-size: 16px;
+      font-family: 'Nunito', sans-serif;
+      color:#EFE8E0;
+      margin-top: 20px;
+  
+  }
+  
+  .bodyText{
+      font-size: 14px;
+      font-family: 'Nunito', sans-serif;
+      color:#EFE8E0;
+  }
+
+  .handEgret{
+    color:#EFE8E0;
+    background-color: #19553B;
+    padding:20px;
+    width:100%;
+    font-size: 32px;
+      font-family: 'Caveat',cursive;
+  }
+
+  .explainText{
+    background-color: #EFE8E0;
+    color: black;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    padding:50px
+  }
+
+  .parSpace{
+    margin:30px;
+    padding:10px;
+  }
+
+.protoPersonaDEC{
+    width:100%;
+    height:auto;
+    align-items:center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+@media(max-width:1130px){
+    .hamburger{
+        display:block;
+    }
+
+    .navMenu{
+        position:fixed;
+        left:-100%;
+        top:70px;
+        gap:0;
+        flex-direction:column;
+        background-color:#F9F7F0;
+        width:30%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 1;
+    }
+    .navMenu.active{
+        width:30%;
+        right:0;
+        left:auto;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+      }
+    .squiggle{
+        display:none
+    }
+
+    .hero{
+       flex-direction: column;
+       padding-left: 0px;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .aboutInfo{
+        display:none;
+    }
+    .aboutInfoMobile{
+        display:block;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+   
+
 }
 
 
