@@ -11,8 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Moo+Lah+Lah&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
     
     <script src="https://kit.fontawesome.com/75c14c928d.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
+    
 </head>
+
 <body>
     <header>
     <nav class="navBar">
@@ -24,7 +25,7 @@
          <ul class="navMenu">
             <li class="nav-item"><a href="./projects.html" class="navLink">UX Design</a></li>
             <li class="nav-item"><a href="#"class="navLink">Fashion Design</a></li>
-            <li class="nav-item"><a href="#"class="navLink">Contact</a></li>
+            <li class="nav-item"><a href="#contactHome"class="navLink">Contact</a></li>
         </ul>
         <div class="hamburger">
             <i class="fa-solid fa-bars" style="color: #000000;"></i>
@@ -32,9 +33,6 @@
     </nav>
 
  </header>
-
-
-
 
 <section class="hero">
     <div class="profile">
@@ -45,19 +43,20 @@
         <h2 class="jobTitle">UX/UI Designer </h2>
         <p class="miniBio"> I am a passionate designer who loves all the little things we can create that make life so fun!</p>
         <div class="heroButton">
-            <button class="aqua">ABOUT ME</button> 
+            <a href="#aboutMeHome"><button class="aqua">ABOUT ME</button></a>
             <button class="turq"><a href="./myskills.html">MY SKILLS</a></button>
         </div>  
     </div> 
     <img src="./media/arrow cropped.png" class="squiggle" alt="squiggly arrow">
  </section>
-<section>
+
+ <section>
  <div class="aboutInfoMobile">
     <h1 class="greeting">Hi there, I'm Kelly!</h1>
     <h2 class="jobTitle">UX/UI Designer </h2>
     <p class="miniBio"> I am a passionate designer who loves all the little things we can create that make life so fun!</p>
     <div class="heroButton">
-        <button class="aqua">ABOUT ME</button> 
+        <a href="#aboutMeHome"><button class="aqua">ABOUT ME</button></a>
         <button class="turq"><a href="./myskills.html">MY SKILLS</a></button>
     </div>  
 </div>
@@ -88,7 +87,8 @@
     <a href="./projects.html" class="viewAll">View All Projects</a>
  </section>
     
- <section class="aboutMe">
+ <section class="aboutMe"id="aboutMeHome">
+
     <div class="flowers">
         <img src="./media/flower.jpg" alt="Pop art flower painting" width="632px" height="auto"> 
     </div>
@@ -102,33 +102,35 @@
         <p class="about">With my skills in research, user empathy and accessible design, I create accessible designs that are impactful, that will weaves together usability and delight.</p>
         <p class="about">Want to get in touch? Let's connect!</p>
     </div> 
+
  </section>
     <div class="swirl">
         <img src="./media/blue swirl.png" alt="blue swirl pattern" width="100%">
     </div>
- <section class="contact">
+ <section class="contact" id="contactHome">
     <div class="contactScribble">
         <img src="./media/contact-methods-01-1-edited.png" class="contactImage" alt="doodles of phone and email">
     </div>
     <div class="contactForm">
         <h1 class="greeting">Contact Me!</h1>
-        <form>
+        <form action="mailto:kenneally.designs@gmail.com">
             <div class="nameMail">
     <input class="formTop" type="text" id="name" name="name" placeholder="Your name...">
     <input class="formTop" type="email" id="email" name="email" placeholder="Email...">
     </div>
     <textarea class="message" id="message" name="message" placeholder="Message..." rows="10"></textarea>
-        </form>
         <div class="submitButton">
-            <button class="coral">SUBMIT</button> 
+            <button class="coral" type="submit">SUBMIT</button> 
         </div>  
+    </form>
     </div>
  </section>
 
  <footer>
     
  </footer>
+ 
 
-
+ <script src="./script.js"></script>
 </body>
 </html>

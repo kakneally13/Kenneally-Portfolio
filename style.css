@@ -2,6 +2,10 @@ body{
     background-color: #F9F7F0 ;
 }
 
+  html{
+        scroll-behavior: smooth;
+    }
+
 .hamburger{
   display: none;
   cursor: pointer;
