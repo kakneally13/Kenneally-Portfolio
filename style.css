@@ -495,80 +495,199 @@ footer{
     margin-left: 10px;
 }
 
-
-.caseStudyCover{
-    display:flex;
-    width:100%;
-  }
-  
-  .coverLeft{
-      background-color: #EFE8E0;
-      width:35%;
-      padding:40px;
-  
-  }
   /* casestudys css */
 
-  .coverRight{
-      background-color: #347E43;
-      width:65%;
-      padding:50px;
-      
-  }
-  
-  .handBlack{
-      font-size: 32px;
-      font-family: 'Caveat',cursive;
-      color:black;
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom:20px ;
-  }
-  
-  .subheadings{
-      font-size: 16px;
-      font-family: 'Nunito', sans-serif;
-      color:#EFE8E0;
-      margin-top: 20px;
-  
-  }
-  
-  .bodyText{
-      font-size: 14px;
-      font-family: 'Nunito', sans-serif;
-      color:#EFE8E0;
-  }
-
-  .handEgret{
-    color:#EFE8E0;
-    background-color: #19553B;
-    padding:20px;
-    width:100%;
-    font-size: 32px;
-      font-family: 'Caveat',cursive;
-  }
-
-  .explainText{
+.coverLeft {
+    /*I could use the justify-content class in bootstrap but had to declare flex on div element which had a browser default of display block*/
+    display: flex;
+    flex-direction: column;
+    /*align-items center helps prevent image from warping*/
+    align-items: center;
+    text-align: center;
     background-color: #EFE8E0;
-    color: black;
+    height: auto;
+}
+
+.coverLeft h2 {
+    font-family: 'Caveat', cursive;
+    
+}
+
+.coverRight {
+    background-color: #347E43;
+    height: auto;
+    color:#ffffff;
+    padding: 20px;
+}
+
+.coverRight ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.coverRight h5 {
+    margin-top:15px;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
-    padding:50px
-  }
+    color:#EFE8E0;
+}
 
-  .parSpace{
-    margin:30px;
-    padding:10px;
-  }
+.blueTag{
+    background-color:#3297C3;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color:#EFE8E0;
+}
 
-.protoPersonaDEC{
+.orangeTag{
+    background-color:#D36B48;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color:#EFE8E0;
+
+}
+
+.card-header{
+    background-color: #19553B !important;
+}
+
+.btn-link{
+    color:#EFE8E0 !important;
+    font-family: 'Caveat',cursive;
+    font-size: 32px !important;
+}
+
+.card-body{
+    background-color: #EFE8E0;
+}
+.caseBody{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color:black;
+}
+
+.DECproto{
+    background-color: #EFE8E0;
+}
+
+.imageFull{
     width:100%;
     height:auto;
     align-items:center;
     padding-left: 50px;
     padding-right: 50px;
-
+    margin-bottom: 50px;
 }
+
+.handBlack{
+    font-size: 32px;
+    font-family: 'Caveat',cursive;
+    color:black;
+    text-align: center;
+    background-color: #EFE8E0;
+    width: 100%;
+    padding: 20px;
+}
+
+.slideHead{
+    font-size: 32px;
+    font-family: 'Caveat',cursive;
+    color:black;
+    text-align: left;
+    padding:20px;
+    background-color: #EFE8E0;
+    width: 100%;
+    border-bottom: solid 4px;
+    border-color: #347E43;
+    margin-block-end: 0px;
+}
+
+.blankSlide{
+    display:flex;
+    flex-direction: column;
+    background-color: #EFE8E0;
+    height: auto;
+    padding: 40px;
+}
+
+
+.DECUserScenario{
+    background-color: #347E43;
+    padding: 60px;
+}
+
+.handEgretReg{
+    color:#EFE8E0;
+    padding:20px;
+    width:100%;
+    font-size: 32px;
+    font-family: 'Caveat',cursive;
+    font-weight: 700;
+  }
+
+  .handEgretP{
+    color:#EFE8E0;
+    padding:20px;
+    width:100%;
+    font-size: 32px;
+    font-family: 'Caveat',cursive;
+    font-weight: 400;
+  }
+
+
+.listHead{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color:black;
+}
+
+.DECtestResults{
+    background-color: #EFE8E0;
+    padding-bottom: 100px; ;
+}
+
+.scoreBox{
+    display:flex;
+    margin:20px;
+    justify-content: center;
+}
+
+.greenBox{
+    background-color:#97e0b2ff ;
+    padding: 10px;
+    font-family: 'nunito',sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-right: 20px;
+}
+
+.aquaBox{
+    background-color:#a1e0e0ff ;
+    padding: 10px;
+    font-family: 'nunito',sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-left:20px;
+}
+
+.explainScore{
+    border: solid 4px;
+    border-color: #347E43;
+    padding: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.explainScore li{
+    margin-bottom: 20px;
+    font-family: 'nunito',sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+
+
 
 
 @media(max-width:1130px){
