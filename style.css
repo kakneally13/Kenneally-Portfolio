@@ -698,13 +698,16 @@ footer{
     background-color: #f9f1ba;
 }
 
+.tan{
+    background-color: #EFE8E0;
+}
 .heuristic_tile {
     border-radius:5px;
     margin:20px;
     width:175px;
-    height: auto;
+    height: 80px;
     font-family: 'nunito',sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     padding: 8px;
     text-align: center;
