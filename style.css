@@ -510,7 +510,6 @@ footer{
 
 .coverLeft h2 {
     font-family: 'Caveat', cursive;
-    
 }
 
 .coverRight {
@@ -569,6 +568,7 @@ footer{
 
 .DECproto{
     background-color: #EFE8E0;
+
 }
 
 .imageFull{
@@ -578,6 +578,13 @@ footer{
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 50px;
+}
+
+.imageMed{
+    width:50%;
+    height:auto;
+    margin-bottom: 40px;
+    
 }
 
 .handBlack{
@@ -603,14 +610,12 @@ footer{
     margin-block-end: 0px;
 }
 
-.blankSlide{
-    display:flex;
-    flex-direction: column;
-    background-color: #EFE8E0;
-    height: auto;
-    padding: 40px;
-}
 
+
+.carousel-control-next,
+.carousel-control-prev , .carousel-indicators  {
+    filter: invert(100%);
+}
 
 .DECUserScenario{
     background-color: #347E43;
@@ -701,6 +706,31 @@ footer{
 .tan{
     background-color: #EFE8E0;
 }
+
+.blankSlide{
+    display:flex;
+    flex-direction: column;
+    background-color: #EFE8E0;
+    height: auto;
+    padding: 40px !important;
+    width:100%;
+}
+
+.blankSlide h2{
+    font-family: 'Caveat',cursive;
+}
+
+.blankSlide ul{
+    font-family: 'nunito',sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+}
+
+.blankSlide li{
+    margin-top: 8px;
+}
+
 .heuristic_tile {
     border-radius:5px;
     margin:20px;
@@ -722,6 +752,28 @@ footer{
     text-align: center;
     width:150px;
     height: auto;
+}
+
+.moodGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.moodImages{
+    width: 100%;
+    padding: 40px;
+}
+
+.hifi{
+    background-color: #EFE8E0;
+    display: flex;
+    justify-content: center;
+}
+
+.gif{
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:10px;
 }
 
 
@@ -772,6 +824,10 @@ footer{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .hifi{
+        flex-direction: column;
     }
    
 
