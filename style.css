@@ -197,6 +197,50 @@ nav li{
     align-items: center;
 }
 
+/* .projectImage::before, .projectImage::after{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top: 32px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 32px solid rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: 'Test';
+  color:white;
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+} */
+
+.projectImage:hover .overlay{
+    opacity:0.8;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  black;
+  color:white;
+}
+
+.overlayText{
+    position: absolute;
+    text-align:center;
+    top:25%;
+    align-content: center;
+    font-family: 'Nunito',sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
 .projectImage{
     background-color: #F9F7F0;
     border: solid 8px;
@@ -551,14 +595,26 @@ footer{
     background-color: #19553B !important;
 }
 
+.card-header-purple{
+    background-color: #654A8C !important;
+}
+
 .btn-link{
     color:#EFE8E0 !important;
     font-family: 'Caveat',cursive;
     font-size: 32px !important;
 }
 
+
+
 .card-body{
     background-color: #EFE8E0;
+}
+
+.card-body-purple{
+    background-image: url(./media/finequity\ background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .caseBody{
     font-size: 16px;
@@ -768,12 +824,66 @@ footer{
     background-color: #EFE8E0;
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .gif{
     padding-left:40px;
     padding-right:40px;
     padding-top:10px;
+}
+
+.finequityCover{
+    background-image: url(./media/finequity\ background\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    padding:40px;
+}
+
+.finequityFontBig{
+ font-family: 'Lato', sans-serif;
+ font-size: 42px;
+ font-weight: 700;
+}
+
+.finequityHeadFont{
+    font-family: 'Baloo 2', cursive;;
+    font-size: 34px;
+    font-weight: 600;
+    color: white;
+}
+
+.finequityFont{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+   }
+
+.finequityBody{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.purpleTag{
+    background-color:#654A8C;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+.finblueTag{
+    background-color:#A5C4D4;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: navy;
 }
 
 
