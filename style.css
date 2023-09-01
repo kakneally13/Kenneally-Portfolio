@@ -763,6 +763,11 @@ footer{
     background-color: #EFE8E0;
 }
 
+.iceBlue{
+    background-color: #A5C4D4;
+
+}
+
 .blankSlide{
     display:flex;
     flex-direction: column;
