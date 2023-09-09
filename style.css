@@ -615,6 +615,7 @@ footer{
     background-image: url(./media/finequity\ background\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding:40px
 }
 .caseBody{
     font-size: 16px;
@@ -764,7 +765,10 @@ footer{
 }
 
 .iceBlue{
-    background-color: #A5C4D4;
+    background-color: #C0D6ED;
+    padding:60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 
 }
 
@@ -871,8 +875,6 @@ footer{
     font-size: 16px;
     font-weight: 300;
     margin-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .purpleTag{
