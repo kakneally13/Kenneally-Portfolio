@@ -591,6 +591,19 @@ footer{
 
 }
 
+.aquaTag{
+    background-color:#8fe0e9ff;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color:#279198;
+}
+.limeTag{
+    background-color:#dde682ff;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color:#279198;
+}
+
 .card-header{
     background-color: #19553B !important;
 }
@@ -599,12 +612,15 @@ footer{
     background-color: #654A8C !important;
 }
 
+.card-header-teal{
+    background-color: #007885ff !important;
+}
+
 .btn-link{
     color:#EFE8E0 !important;
     font-family: 'Caveat',cursive;
     font-size: 32px !important;
 }
-
 
 
 .card-body{
@@ -616,6 +632,15 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     padding:40px
+}
+
+.card-body-teal{
+    background-color: white;
+    border: solid 4px;
+    border-color: #eeff41;
+    margin:20px;
+    padding: 20px;
+
 }
 .caseBody{
     font-size: 16px;
@@ -637,12 +662,17 @@ footer{
     margin-bottom: 50px;
 }
 
+.imageLarge{
+    width:75%;
+    height:auto;
+    margin-bottom: 40px;
+}
 .imageMed{
     width:50%;
     height:auto;
     margin-bottom: 40px;
-    
 }
+
 
 .handBlack{
     font-size: 32px;
@@ -893,7 +923,59 @@ footer{
     color: navy;
 }
 
+.AWGfontBig{
+    font-family:'Caveat', cursive;
+    font-size: 60px;
+    color:black;
+    align-items: center;
+    text-align: center;
+    
+}
 
+.AWGfontBigWhite{
+    font-family:'Caveat', cursive;
+    font-size: 48px;
+    color:white;
+    
+}
+
+.limeBorder{
+border: solid 5px;
+border-color: #eeff41;
+padding:10px;
+margin:20px;
+align-items: center;
+text-align: center;
+}
+
+.AWGcoverLeft{
+    background-color:white ;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.AWGcoverRight{
+    background-color: #0097a7ff;
+    padding: 40px;
+    color: white;
+}
+
+.AWGsub{
+    font-family: 'nunito', sans-serif;
+    font-size: 18px;
+}
+
+.AWGbody{
+    font-family: 'nunito', sans-serif;
+    font-size: 16px;
+}
+.AWGbodyPOV{
+    font-family: 'nunito', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
 
 @media(max-width:1130px){
     .hamburger{
