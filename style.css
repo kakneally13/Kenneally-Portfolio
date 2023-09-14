@@ -948,6 +948,12 @@ align-items: center;
 text-align: center;
 }
 
+.finalThoughts{
+    background-color: #0097a7ff;
+    color: white;
+    padding:40px;
+}
+
 .AWGcoverLeft{
     background-color:white ;
     padding: 40px;
@@ -965,17 +971,26 @@ text-align: center;
 .AWGsub{
     font-family: 'nunito', sans-serif;
     font-size: 18px;
+    text-align: center;
 }
 
 .AWGbody{
     font-family: 'nunito', sans-serif;
     font-size: 16px;
 }
+
+.awgPOVstatement{
+    background-color: #0097a7ff;
+    color: white;
+    padding:40px;
+    
+}
 .AWGbodyPOV{
     font-family: 'nunito', sans-serif;
     font-size: 16px;
     margin-top: 10px;
 }
+
 
 @media(max-width:1130px){
     .hamburger{
