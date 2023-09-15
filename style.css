@@ -992,6 +992,77 @@ text-align: center;
 }
 
 
+/* Fashion design*/
+
+.projectGallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fashionProject{
+    background-color: white;
+    border: solid 3px;
+    border-color: #279198;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+.cardTitle{
+    font-family: 'nunito';
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.cardSub{
+    font-family: 'nunito';
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.imageThumb{
+    width:100%;
+    height:auto;
+}
+
+
+
+
+.aquaCard{
+    border: none;
+    background-color: #9BCED1;
+    padding: 9px 35px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'nunito', sans-serif;
+    border-radius: 15px;
+    margin-right: 20px;
+    
+  }
+
+  .aquaCard a{
+    text-decoration: none;
+    color: black;
+}
+ 
+.aquaCard:hover{
+    background-color: #DEE088;
+  }
+
+  .cadFull{
+    width:100%;
+    height:auto;
+    align-items:center;
+    padding-left: 100px;
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 @media(max-width:1130px){
     .hamburger{
         display:block;
