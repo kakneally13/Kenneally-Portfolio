@@ -4,12 +4,13 @@ body{
 
   html{
         scroll-behavior: smooth;
+        font-size: 62.5%;
     }
 
 .hamburger{
   display: none;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .aboutInfoMobile{
@@ -22,7 +23,7 @@ body{
     height: auto;
     width: 100%;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.3));
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Nunito', sans-serif;
     justify-content: space-between;
     align-items: center;
@@ -54,12 +55,12 @@ font-weight: 600;
 }
 
 .name{
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-left: 15px;
 }
 
 .titleMain{
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 nav ul{
@@ -69,7 +70,7 @@ nav ul{
 nav li{
     list-style: none;
     vertical-align: top;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 .hero{
@@ -96,26 +97,26 @@ nav li{
 }
 
 .greeting{
-    font-size: 64px;
+    font-size: 6.4rem;
     font-family: 'Handlee', cursive;
     font-weight: 400;
 }
 
 .jobTitle{
-    font-size: 40px;
+    font-size: 4rem;
     font-family: 'Nunito', sans-serif ;
     font-weight: 300;
 }
 
 
 .caseStudyHead{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Nunito', sans-serif ; 
     font-weight: 300; 
 }
 
 .miniBio{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Nunito', sans-serif ; 
     font-weight: 300;
     margin-top: 10px;
@@ -130,8 +131,8 @@ nav li{
     background-color: #9BCED1;
     padding: 9px 35px;
     text-align: center;
-    font-size: 24px;
-    font-family: nunito, sans-serif;
+    font-size: 2.4rem;
+    font-family: 'nunito', sans-serif;
     border-radius: 15px;
     margin-right: 20px;
   }
@@ -154,7 +155,7 @@ nav li{
     background-color: #279198;
     padding: 9px 35px;
     text-align: center;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: nunito, sans-serif;
     border-radius: 15px;
 }
@@ -180,7 +181,7 @@ nav li{
 }
 .recentProjects{
     margin-top: 120px;
-    font-size: 64px;
+    font-size: 6.4rem;
     font-family: 'Handlee', cursive;
     font-weight: 400;
 }
@@ -237,7 +238,7 @@ nav li{
     top:25%;
     align-content: center;
     font-family: 'Nunito',sans-serif;
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 600;
 }
 
@@ -257,7 +258,7 @@ nav li{
 
 .viewAll{
 margin-top: 30px;
-font-size: 32px;
+font-size: 3.2rem;
 font-family: 'Nunito', sans-serif ;
 color: black;
 }
@@ -278,11 +279,11 @@ color: black;
     align-items: center;
 }
 .moo{
-    font-size:72px;
+    font-size:7.2rem;
     font-family: 'Moo Lah Lah', cursive;
 }
 .about{
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Nunito', sans-serif;
     padding: 10px;
     margin-left: 56px;  
@@ -315,7 +316,7 @@ color: black;
 .formTop{
     width:50%;
     margin-top: 40px;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Nunito', sans-serif ;
     padding:15px;
     border-radius: 15px;
@@ -324,7 +325,7 @@ color: black;
 .message{
     margin-top: 30px;
     width: 100%; 
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Nunito', sans-serif ;
     border-radius: 15px;
     padding: 15px;
@@ -334,7 +335,7 @@ color: black;
     background-color: #FE9F99;
     padding: 9px 35px;
     text-align: center;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Nunito', sans-serif;
     border-radius: 15px;
     margin-top: 30px;
@@ -382,7 +383,7 @@ footer{
 }
 
 .projectDescription{
-    font: size 20px; ;
+    font-size: 2rem;
     font-family: 'Nunito',sans-serif;
     font-weight: 300;
     margin-top: 10px;
@@ -438,13 +439,13 @@ footer{
 }
 
 .handwriting{
-    font-size: 40px;
+    font-size: 4rem;
     font-family: 'Handlee',sans-serif;
     text-align: center;
 }
 
 .title{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Nunito',sans-serif;
     font-weight: 300;
     text-align: center;
@@ -483,7 +484,7 @@ footer{
 }
 
 .sidebarText{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito',sans-serif;
 }
 
@@ -492,12 +493,12 @@ footer{
 }
 
 .skillHeader{
-    font-size: 40px;
+    font-size: 4rem;
     font-family: 'Nunito', sans-serif;
 }
 
 .skillsMain p{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -534,7 +535,7 @@ footer{
 }
 
 .iconPlusText p{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
     margin-left: 10px;
 }
@@ -571,21 +572,21 @@ footer{
 
 .coverRight h5 {
     margin-top:15px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
     color:#EFE8E0;
 }
 
 .blueTag{
     background-color:#3297C3;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
     color:#EFE8E0;
 }
 
 .orangeTag{
     background-color:#D36B48;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
     color:#EFE8E0;
 
@@ -593,13 +594,13 @@ footer{
 
 .aquaTag{
     background-color:#8fe0e9ff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
     color:#279198;
 }
 .limeTag{
     background-color:#dde682ff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
     color:#279198;
 }
@@ -619,7 +620,7 @@ footer{
 .btn-link{
     color:#EFE8E0 !important;
     font-family: 'Caveat',cursive;
-    font-size: 32px !important;
+    font-size: 3.2rem !important;
 }
 
 
@@ -643,7 +644,7 @@ footer{
 
 }
 .caseBody{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
     color:black;
 }
@@ -675,7 +676,7 @@ footer{
 
 
 .handBlack{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: 'Caveat',cursive;
     color:black;
     text-align: center;
@@ -685,7 +686,7 @@ footer{
 }
 
 .slideHead{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: 'Caveat',cursive;
     color:black;
     text-align: left;
@@ -713,7 +714,7 @@ footer{
     color:#EFE8E0;
     padding:20px;
     width:100%;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: 'Caveat',cursive;
     font-weight: 700;
   }
@@ -722,14 +723,14 @@ footer{
     color:#EFE8E0;
     padding:20px;
     width:100%;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: 'Caveat',cursive;
     font-weight: 400;
   }
 
 
 .listHead{
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Nunito', sans-serif;
     color:black;
 }
@@ -749,7 +750,7 @@ footer{
     background-color:#97e0b2ff ;
     padding: 10px;
     font-family: 'nunito',sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: black;
     margin-right: 20px;
 }
@@ -758,7 +759,7 @@ footer{
     background-color:#a1e0e0ff ;
     padding: 10px;
     font-family: 'nunito',sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: black;
     margin-left:20px;
 }
@@ -774,7 +775,7 @@ footer{
 .explainScore li{
     margin-bottom: 20px;
     font-family: 'nunito',sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: black;
 }
 
@@ -798,7 +799,7 @@ footer{
     background-color: #C0D6ED;
     padding:60px;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
 
 }
 
@@ -817,7 +818,7 @@ footer{
 
 .blankSlide ul{
     font-family: 'nunito',sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: black;
     margin-top: 10px;
 }
@@ -832,7 +833,7 @@ footer{
     width:175px;
     height: 80px;
     font-family: 'nunito',sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: black;
     padding: 8px;
     text-align: center;
@@ -840,7 +841,7 @@ footer{
 
 .heuristic_score{
     font-family: 'nunito',sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: black;
     padding: 5px;
     margin-top: 10px;
@@ -882,27 +883,27 @@ footer{
 
 .finequityFontBig{
  font-family: 'Lato', sans-serif;
- font-size: 42px;
+ font-size: 4.2rem;
  font-weight: 700;
 }
 
 .finequityHeadFont{
     font-family: 'Baloo 2', cursive;;
-    font-size: 34px;
+    font-size: 3.4rem;
     font-weight: 600;
     color: white;
 }
 
 .finequityFont{
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
     margin-top: 10px;
    }
 
 .finequityBody{
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 300;
     margin-top: 10px;
 }
@@ -910,7 +911,7 @@ footer{
 .purpleTag{
     background-color:#654A8C;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 300;
     color: white;
 }
@@ -918,14 +919,14 @@ footer{
 .finblueTag{
     background-color:#A5C4D4;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 300;
     color: navy;
 }
 
 .AWGfontBig{
     font-family:'Caveat', cursive;
-    font-size: 60px;
+    font-size: 6rem;
     color:black;
     align-items: center;
     text-align: center;
@@ -934,7 +935,7 @@ footer{
 
 .AWGfontBigWhite{
     font-family:'Caveat', cursive;
-    font-size: 48px;
+    font-size: 4.8rem;
     color:white;
     
 }
@@ -970,24 +971,24 @@ text-align: center;
 
 .AWGsub{
     font-family: 'nunito', sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
 }
 
 .AWGbody{
     font-family: 'nunito', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .awgPOVstatement{
     background-color: #0097a7ff;
     color: white;
-    padding:40px;
+    padding:4rem;
     
 }
 .AWGbodyPOV{
     font-family: 'nunito', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-top: 10px;
 }
 
@@ -1011,14 +1012,14 @@ text-align: center;
 
 .cardTitle{
     font-family: 'nunito';
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
     margin-top: 5px;
 }
 
 .cardSub{
     font-family: 'nunito';
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 300;
     margin-top: 5px;
     margin-bottom: 30px;
@@ -1029,15 +1030,12 @@ text-align: center;
     height:auto;
 }
 
-
-
-
 .aquaCard{
     border: none;
     background-color: #9BCED1;
     padding: 9px 35px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'nunito', sans-serif;
     border-radius: 15px;
     margin-right: 20px;
@@ -1114,7 +1112,39 @@ text-align: center;
     .hifi{
         flex-direction: column;
     }
+
+    .projectGallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
    
+}
+
+@media(max-width:480px){
+    .titleMain{
+        display: none;
+    }
+
+    .turq{
+        margin-top:15px;
+    }
+
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recentProjects{
+        text-align: center;
+    }
+
+    .aboutMe{
+        flex-direction: column;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
 
 }
 
