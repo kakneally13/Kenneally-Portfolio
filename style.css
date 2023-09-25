@@ -358,6 +358,8 @@ footer{
     height: 417px;
 }
 
+/*Projecets Page*/
+
 .caseStudy{
     background-color:#F9F7F0;
     display:flex;
@@ -369,6 +371,7 @@ footer{
 }
 
 .projectInfo{
+    font-size: 2rem;
     display:block;
     gap: 15px;
     width: 50%;
@@ -579,14 +582,14 @@ footer{
 
 .blueTag{
     background-color:#3297C3;
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     font-family: 'Nunito', sans-serif;
     color:#EFE8E0;
 }
 
 .orangeTag{
     background-color:#D36B48;
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     font-family: 'Nunito', sans-serif;
     color:#EFE8E0;
 
@@ -594,15 +597,47 @@ footer{
 
 .aquaTag{
     background-color:#8fe0e9ff;
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     font-family: 'Nunito', sans-serif;
     color:#279198;
 }
 .limeTag{
     background-color:#dde682ff;
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     font-family: 'Nunito', sans-serif;
     color:#279198;
+}
+
+.purpleTag{
+    background-color:#654A8C;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem !important;
+    font-weight: 300;
+    color: white;
+}
+
+.finblueTag{
+    background-color:#A5C4D4;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem !important;
+    font-weight: 300;
+    color: navy;
+}
+
+.perryTag{
+    background-color:#899AD8;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    color:#FEFEF6;
+}
+
+.ecoAquaTag{
+    background-color:#408171;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    color:#FEFEF6;
 }
 
 .card-header{
@@ -615,6 +650,10 @@ footer{
 
 .card-header-teal{
     background-color: #007885ff !important;
+}
+
+.card-header-perry{
+    background-color:#899AD8 !important;
 }
 
 .btn-link{
@@ -643,6 +682,13 @@ footer{
     padding: 20px;
 
 }
+
+.card-body-perry{
+    background-color: #FEFEF6;  
+    padding: 40px;
+
+}
+
 .caseBody{
     font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
@@ -803,6 +849,10 @@ footer{
 
 }
 
+.cream{
+    background-color: #FEFEF6;
+}
+
 .blankSlide{
     display:flex;
     flex-direction: column;
@@ -908,21 +958,6 @@ footer{
     margin-top: 10px;
 }
 
-.purpleTag{
-    background-color:#654A8C;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: white;
-}
-
-.finblueTag{
-    background-color:#A5C4D4;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: navy;
-}
 
 .AWGfontBig{
     font-family:'Caveat', cursive;
@@ -990,6 +1025,122 @@ text-align: center;
     font-family: 'nunito', sans-serif;
     font-size: 1.6rem;
     margin-top: 10px;
+}
+
+.EcocoverLeft{
+    background-color: #408171 ;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.EcocoverRight{
+    background-image: url(./media/ecoloop\ background-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    color:black;
+}
+
+.EcoFontBig{
+    font-family:'Oswald', sans-serif;
+    color: #FEFEF6;
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.EcoBig{
+    font-family:'Oswald', sans-serif;
+    color: black;
+    font-size: 3.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.EcoSub{
+    font-family:'Oswald', sans-serif;
+    font-size: 2.8rem;
+    font-weight:400;
+    text-align: center;
+}
+
+.EcoBody{
+    font-family: 'Inter',sans-serif;
+    font-size:1.6rem;
+    font-weight: 300;
+}
+
+.EcoBodyBold{
+    font-family: 'Inter',sans-serif;
+    font-size:1.6rem;
+    font-weight: 500;
+}
+
+.EcoBodyCenter{
+    font-family: 'Inter',sans-serif;
+    font-size:1.6rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.EcoProblemOne{
+    background-color: #AED4D5;
+    color: black;
+    padding:4rem;
+}
+.EcoProblemTwo{
+    background-color: #408171;
+    color: white;
+    padding:4rem;
+}
+.EcoProblemThree{
+    background-color: #B073B1;
+    color: white;
+    padding:4rem;
+}
+
+.problemTitle{
+    font-family:'Indie Flower', cursive;
+    font-size: 3.2rem;
+    margin-top:60px;
+}
+
+.problemSub{
+    font-family:'Indie Flower', cursive;
+    font-size: 2.2rem;
+}
+
+.EcoProblemTwo li{
+    padding-top:20px;
+}
+
+.EcoProblemTwo h1{
+    padding-top:50px;
+}
+
+.perryBox{
+    border: 4px solid;
+    border-color: #899AD8;
+    padding: 20px;
+}
+
+.orchidBox{
+    border: 4px solid;
+    border-color: #b073b1;
+    padding: 20px;
+}
+
+.orchidBox li{
+    padding-bottom:20px;
+}
+
+.bulletSpace li{
+    margin-top:20px;
+}
+
+.appFeatures{
+    display: flex;
 }
 
 
@@ -1060,6 +1211,8 @@ text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+
 
 @media(max-width:1130px){
     .hamburger{
