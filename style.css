@@ -137,6 +137,7 @@ nav li{
     margin-right: 20px;
   }
 
+
   .aqua a{
     text-decoration: none;
     color: black;
@@ -156,7 +157,7 @@ nav li{
     padding: 9px 35px;
     text-align: center;
     font-size: 2.4rem;
-    font-family: nunito, sans-serif;
+    font-family: 'Nunito', sans-serif;
     border-radius: 15px;
 }
 .turq a{
@@ -184,6 +185,12 @@ nav li{
     font-size: 6.4rem;
     font-family: 'Handlee', cursive;
     font-weight: 400;
+}
+
+.projectTitleFont{
+    font-size: 2.4rem;
+    font-family: 'nunito', sans-serif;
+    margin-top:10px;
 }
 
 .projectDiv{
@@ -214,7 +221,7 @@ nav li{
   opacity: 0;
 } */
 
-.projectImage:hover .overlay{
+/* .projectImage:hover .overlay{
     opacity:0.8;
 }
 
@@ -240,7 +247,7 @@ nav li{
     font-family: 'Nunito',sans-serif;
     font-size: 4.8rem;
     font-weight: 600;
-}
+} */
 
 .projectImage{
     background-color: #F9F7F0;
