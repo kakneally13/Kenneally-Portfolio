@@ -39,6 +39,16 @@ body{
     text-decoration: none;
 }
 
+.nunitoBody a:link{
+    color:#279198;
+    text-decoration: none;
+}
+
+.nunitoBody a:visited{
+    color:#279198;
+    
+}
+
 nav ul li a:hover {
 border-bottom: solid 4px;
 border-color: #279198;
@@ -110,7 +120,7 @@ nav li{
 
 
 .caseStudyHead{
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-family: 'Nunito', sans-serif ; 
     font-weight: 300; 
 }
@@ -134,7 +144,7 @@ nav li{
     font-size: 2.4rem;
     font-family: 'nunito', sans-serif;
     border-radius: 15px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
 
 
@@ -264,31 +274,57 @@ nav li{
      }
 
 .viewAll{
+text-decoration: none;
 margin-top: 30px;
 font-size: 3.2rem;
 font-family: 'Nunito', sans-serif ;
 color: black;
+
 }
 
 .viewAll:hover{
     color: #279198 !important;
 }
 
-.aboutMe{
-    display:flex;
-    margin: 100px 20px 100px 20px;
+.rightAlign{
+    text-align: right;
+    margin-right:60px;
+    margin-top: 30px;
+
 }
 
-.profileColumn{
+.handlee{
+    font-size: 3.6rem;
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
+}
+
+.nunitoBody{
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.aboutMe{
+    display:flex;
+    margin: 40px 20px 40px 20px;
+}
+
+.aboutMeRight{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:55%;
+    margin-right: 40px;
 }
-.moo{
-    font-size:7.2rem;
-    font-family: 'Moo Lah Lah', cursive;
+
+.aboutMeLeft{
+    width:45%;
+    margin-top: 40px;
 }
+
 .about{
     font-size: 2rem;
     font-family: 'Nunito', sans-serif;
@@ -311,7 +347,8 @@ color: black;
 .contactImage{
     width: 100%;
     height: auto;
-}
+} 
+
 .nameMail{
     display:flex;
     gap: 15px;
@@ -336,7 +373,8 @@ color: black;
     font-family: 'Nunito', sans-serif ;
     border-radius: 15px;
     padding: 15px;
-}
+} 
+
 .coral{
     border: none;
     background-color: #FE9F99;
@@ -363,6 +401,60 @@ footer{
     background-image: url(./media/Footer.png);
     background-size: cover;
     height: 417px;
+}
+
+.downloadButton{
+ justify-content: center;
+ text-align: center;
+ margin-bottom: 20px;
+ margin-top: 15px;
+}
+
+#contactScroll{
+    background-color: #9BCED1;   
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.contactOptions{
+    display: flex;
+    background-color: #9BCED1;
+    align-content: center;
+    justify-content: center;
+    padding:30px;
+}
+
+.emailBox{
+    align-content: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    background-color: #C8EDED;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+.phoneBox{
+    align-content: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    background-color: #C8EDED;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+.linkedInBox{
+    align-content: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    background-color: #C8EDED;
+    border-radius: 20px;
 }
 
 /*Projecets Page*/
@@ -393,7 +485,7 @@ footer{
 }
 
 .projectDescription{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: 'Nunito',sans-serif;
     font-weight: 300;
     margin-top: 10px;
@@ -423,7 +515,10 @@ footer{
     background-color:#9BCED1;
     display:flex;
     gap:40px;
-    padding: 40px; 
+    /* padding: 40px;  */
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .borderImageLime{
@@ -462,28 +557,7 @@ footer{
 
 }
 
-.picNameTitle{
-  justify-content: center;
 
-}
-
-.aboutSide{
-    margin-top: 25px;
-}
-.contactSide{
-    margin-top: 25px
-}
-.educationSide{
-    margin-top: 25px;
-}
-
-.educationSide .sidebarText{
-    text-align: left;
-}
-
-.pinkProfilePic{
-    width:100%;
-}
 .abilities{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -514,13 +588,13 @@ footer{
 
 
 .skillImage{
-    width:100%;
+    width:75%;
     max-height: 151px;
     margin-bottom: 15px;
 }
 
 .softwareImage{
-    width:100%;
+    width:75%;
     height: auto;
     margin-bottom: 15px;
 }
@@ -549,6 +623,8 @@ footer{
     font-family: 'Nunito', sans-serif;
     margin-left: 10px;
 }
+
+
 
   /* casestudys css */
 
@@ -716,6 +792,12 @@ footer{
     margin-bottom: 50px;
 }
 
+.imageHundred{
+    width:100%;
+    height:auto;
+    align-items:center;
+}
+
 .imageLarge{
     width:75%;
     height:auto;
@@ -725,6 +807,12 @@ footer{
     width:50%;
     height:auto;
     margin-bottom: 40px;
+}
+
+.imageSmall{
+    width:35%;
+    height:auto;
+    margin-bottom: 10px;
 }
 
 
@@ -1258,6 +1346,10 @@ text-align: center;
        align-items: center;
     }
 
+    .profilePic{
+        width:100%;
+    }
+
     .aboutInfo{
         display:none;
     }
@@ -1276,6 +1368,18 @@ text-align: center;
     .projectGallery{
         display:grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .caseStudy{
+        flex-direction: column;
+    }
+
+    .caseStudyAqua{
+        flex-direction: column;
+    }
+
+    .caseStudyCoral{
+        flex-direction: column;
     }
    
 }
